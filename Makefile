@@ -6,7 +6,7 @@ test: install
 	LD_LIBRARY_PATH=. ./main
 
 install:
-	cd main && ${MAKE} install
+	cd dlopen_dlsym && ${MAKE} install
 
 clean:
-	cd main && ${MAKE} clean
+	cd dlopen_dlsym && ${MAKE} clean
